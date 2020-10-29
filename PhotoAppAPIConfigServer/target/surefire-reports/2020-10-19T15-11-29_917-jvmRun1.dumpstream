@@ -1,0 +1,197 @@
+# Created at 2020-10-19T15:12:07.800
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-10-19T15:12:09.271
+Unexpected IOException with stream: 2020-10-19 15:12:09.269 ERROR 4952 --- [127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured
+
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_251]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[na:1.8.0_251]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[na:1.8.0_251]
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288) ~[na:1.8.0_251]
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:596) ~[amqp-client-5.4.3.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_251]
+
+
+
+# Created at 2020-10-19T15:12:10.292
+Unexpected IOException with stream: 2020-10-19 15:12:10.289  INFO 4952 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:15672]
+
+
+# Created at 2020-10-19T15:12:15.298
+Unexpected IOException with stream: 2020-10-19 15:12:15.297 ERROR 4952 --- [127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured
+
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_251]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[na:1.8.0_251]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[na:1.8.0_251]
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288) ~[na:1.8.0_251]
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:596) ~[amqp-client-5.4.3.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_251]
+
+
+
+# Created at 2020-10-19T15:12:16.335
+Unexpected IOException with stream: 2020-10-19 15:12:16.333  INFO 4952 --- [           main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.HyKTI-LATK-hpn8U8U1D3Q.errors' has 1 subscriber(s).
+
+
+# Created at 2020-10-19T15:12:16.339
+Unexpected IOException with stream: 2020-10-19 15:12:16.338  INFO 4952 --- [           main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.HyKTI-LATK-hpn8U8U1D3Q.errors' has 2 subscriber(s).
+
+
+# Created at 2020-10-19T15:12:16.347
+Unexpected IOException with stream: 2020-10-19 15:12:16.346  INFO 4952 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:15672]
+
+
+# Created at 2020-10-19T15:12:21.352
+Unexpected IOException with stream: 2020-10-19 15:12:21.351 ERROR 4952 --- [127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured
+
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_251]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[na:1.8.0_251]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[na:1.8.0_251]
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288) ~[na:1.8.0_251]
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:596) ~[amqp-client-5.4.3.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_251]
+
+
+
+# Created at 2020-10-19T15:12:22.357
+Unexpected IOException with stream: 2020-10-19 15:12:22.356  INFO 4952 --- [           main] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start
+
+
+# Created at 2020-10-19T15:12:22.375
+Unexpected IOException with stream: 2020-10-19 15:12:22.374  INFO 4952 --- [K-hpn8U8U1D3Q-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:15672]
+
+
+# Created at 2020-10-19T15:12:27.383
+Unexpected IOException with stream: 2020-10-19 15:12:27.380 ERROR 4952 --- [127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured
+
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_251]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[na:1.8.0_251]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[na:1.8.0_251]
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288) ~[na:1.8.0_251]
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:596) ~[amqp-client-5.4.3.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_251]
+
+
+
+# Created at 2020-10-19T15:12:28.383
+Unexpected IOException with stream: 2020-10-19 15:12:28.381  INFO 4952 --- [           main] o.s.i.a.i.AmqpInboundChannelAdapter      : started inbound.springCloudBus.anonymous.HyKTI-LATK-hpn8U8U1D3Q
+
+
+# Created at 2020-10-19T15:12:28.459
+Unexpected IOException with stream: 2020-10-19 15:12:28.458  INFO 4952 --- [           main] .PhotoAppApiConfigServerApplicationTests : Started PhotoAppApiConfigServerApplicationTests in 52.577 seconds (JVM running for 55.146)
+
+
+# Created at 2020-10-19T15:12:28.557
+Unexpected IOException: 5,1,com.appsdeveloperblog.photoapp.api.PhotoAppApiConfigServerApplicationTests,contextLoads(com.appsdeveloperblog.photoapp.api.PhotoAppApiConfigServerApplicationTests),null,null,null
+
+
+# Created at 2020-10-19T15:12:29.135
+Unexpected IOException: 6,1,com.appsdeveloperblog.photoapp.api.PhotoAppApiConfigServerApplicationTests,contextLoads(com.appsdeveloperblog.photoapp.api.PhotoAppApiConfigServerApplicationTests),null,null,null
+
+
+# Created at 2020-10-19T15:12:29.138
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.appsdeveloperblog.photoapp.api.PhotoAppApiConfigServerApplicationTests,null,null,null
+
+
+# Created at 2020-10-19T15:12:33.398
+Unexpected IOException with stream: 2020-10-19 15:12:33.396  WARN 4952 --- [K-hpn8U8U1D3Q-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+
+
+# Created at 2020-10-19T15:12:33.405
+Unexpected IOException with stream: 2020-10-19 15:12:33.403  INFO 4952 --- [K-hpn8U8U1D3Q-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@7772d266: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2020-10-19T15:12:33.409
+Unexpected IOException with stream: 2020-10-19 15:12:33.408  INFO 4952 --- [K-hpn8U8U1D3Q-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:15672]
+
+
+# Created at 2020-10-19T15:12:38.421
+Unexpected IOException with stream: 2020-10-19 15:12:38.412 ERROR 4952 --- [127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured
+
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_251]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[na:1.8.0_251]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[na:1.8.0_251]
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288) ~[na:1.8.0_251]
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:596) ~[amqp-client-5.4.3.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_251]
+
+
+
+# Created at 2020-10-19T15:12:44.451
+Unexpected IOException with stream: 2020-10-19 15:12:44.450  WARN 4952 --- [K-hpn8U8U1D3Q-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+
+
+# Created at 2020-10-19T15:12:44.453
+Unexpected IOException with stream: 2020-10-19 15:12:44.452  INFO 4952 --- [K-hpn8U8U1D3Q-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@25333aed: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2020-10-19T15:12:44.456
+Unexpected IOException with stream: 2020-10-19 15:12:44.455  INFO 4952 --- [K-hpn8U8U1D3Q-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:15672]
+
+
+# Created at 2020-10-19T15:12:49.461
+Unexpected IOException with stream: 2020-10-19 15:12:49.460 ERROR 4952 --- [127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured
+
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_251]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_251]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[na:1.8.0_251]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[na:1.8.0_251]
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288) ~[na:1.8.0_251]
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:596) ~[amqp-client-5.4.3.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_251]
+
+
+
+# Created at 2020-10-19T15:12:55.477
+Unexpected IOException with stream: 2020-10-19 15:12:55.472  WARN 4952 --- [K-hpn8U8U1D3Q-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+
+
+# Created at 2020-10-19T15:12:55.481
+Unexpected IOException with stream: 2020-10-19 15:12:55.477  INFO 4952 --- [K-hpn8U8U1D3Q-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@2f79f233: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2020-10-19T15:12:55.488
+Unexpected IOException with stream: 2020-10-19 15:12:55.483  INFO 4952 --- [K-hpn8U8U1D3Q-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:15672]
+
+

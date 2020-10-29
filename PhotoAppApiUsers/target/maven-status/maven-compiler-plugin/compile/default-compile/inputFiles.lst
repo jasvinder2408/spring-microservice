@@ -1,0 +1,16 @@
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\data\UsersRepository.java
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\ui\model\UserResponseModel.java
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\security\WebSecurity.java
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\ui\model\CreateUserRequestModel.java
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\data\AlbumsServiceClient.java
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\data\UserEntity.java
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\service\UsersService.java
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\ui\controllers\UsersController.java
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\shared\UserDto.java
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\ui\model\CreateUserResponseModel.java
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\PhotoAppApiUsersApplication.java
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\service\UsersServiceImpl.java
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\security\AuthenticationFilter.java
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\ui\model\AlbumResponseModel.java
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\ui\model\LoginRequestModel.java
+C:\Users\Jasvinder2.Singh\Desktop\Projects\Spring microserveices\Sergey-udemy\SpringCloudVideoCourse-master\PhotoAppApiUsers\src\main\java\com\appsdeveloperblog\photoapp\api\users\shared\FeignErrorDecoder.java

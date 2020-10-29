@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: PhotoAppApiUsers
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Jasvinder2.Singh
+Implementation-Vendor-Id: com.appsdeveloperblog.photoapp.api.users
+Build-Jdk: 1.8.0_251
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/PhotoAppApiUsers
+Created-By: Maven Integration for Eclipse
+
